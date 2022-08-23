@@ -10,6 +10,8 @@
   color: rgba(255, 255, 255, 0.87);
   background-image: url("./assets/wolf_howling_at_the_moon-wallpaper-1920x1080.jpg");
   background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -60,15 +62,8 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
+@media (max-width: 576px) {
   button {
-    background-color: #f9f9f9;
+    font-size: 16px;
   }
 }

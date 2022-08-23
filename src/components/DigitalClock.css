@@ -38,3 +38,16 @@
   border-radius: 20px;
   font-size: 40px;
 }
+
+@media (max-width: 576px) {
+  .digital-clock,
+  .chronometer,
+  .countdown {
+    height: 100px;
+    width: 300px;
+    font-size: 20px;
+  }
+  .chronometer {
+    height: 150px;
+  }
+}
