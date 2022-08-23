@@ -38,6 +38,9 @@
   border-radius: 20px;
   font-size: 40px;
 }
+.span {
+  width: 250px;
+}
 
 @media (max-width: 576px) {
   .digital-clock,
@@ -49,5 +52,8 @@
   }
   .chronometer {
     height: 150px;
+  }
+  .span {
+    width: 130px;
   }
 }
